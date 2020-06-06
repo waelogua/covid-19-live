@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+td, th {
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+  background-color:rgb(255, 255, 255);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,h2{
+color: rgb(253, 253, 253);
+border-width: 300px;
+border: darkblue;
+text-align: center;
+}      
+.title,#totalC{
+text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3{
+color: red;
+border-radius: 10%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.border{
+border-style: thick;
+border-width: 50px;
+border-color: darkblue;
 }
-
-.App-link {
-  color: #61dafb;
+#fit{
+background-color: rgb(0, 0, 0)
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4{
+font-size: xx-small;
+font-style: italic;
+font-family: serif;
+color: aliceblue;
+}
+.box{
+background-color: rgb(0, 0, 0);
+width: 500px;
+border: 8px solid rgb(255, 0, 0);
+padding: 50px;
+margin: 100px;
+display: inline-block;
+border-radius: 10%;
+background-image: url("https://covid19.gov.ua/images/microbe.png");
+background-size: cover;
+}
+.box2{
+background-color: rgb(0, 0, 0);
+width: 500px;
+border: 8px solid rgb(255, 0, 0);
+padding: 50px;
+margin: 100px;
+display: relative;
+border-radius: 10%;
+background-image: url("https://covid19.gov.ua/images/microbe.png");
+background-size: cover;
 }
